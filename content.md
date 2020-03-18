@@ -45,6 +45,7 @@ Voici une liste de challenges. Réalise ceux qui t'inspirent. Invente de nouveau
 * **Vérifie les données** : En php, réalise des vérifications simple des saisies de ton utilisateur. Tu peux par exemple vérifier si le champ saisi par l'utilisateur n'est pas vide.
 * **Boucle tes items** : Si tu as une liste d'item sur ton projet (par exemple la liste des parfums de glace sur ton projet de glacier), créé plutôt un tableau en php contenant toutes les données de ta liste et affiche les avec une boucle.
 * **BONUS Persiste les données** : Enregistre dans un fichier texte nommé avec la date du jour les données entrées via le formulaire.
+* **BONUS Menu dynamique** : Si ton projet est multipage, dans ta navbar utilise du PHP pour modifier l'apparence de l'onglet actif (à l'aide de class CSS)
+* **BONUS Menu dynamique** : Si ton projet est une [SPA](https://fr.wikipedia.org/wiki/Application_web_monopage "Single Page Application"), dans ta navbar utilise du JS pour modifier l'apparence de l'onglet cliqué (à l'aide de class CSS)
 * **BONUS Créé ton propre challenge** : Va encore plus loin en imaginant de nouvelles fonctionnalités ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
-
 
