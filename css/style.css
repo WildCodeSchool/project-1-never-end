@@ -41,11 +41,15 @@ pre,
 }
 
 .message.is-primary .message-body {
+}
+
+.message  blockquote {
+    background: #ffd64f26;
     border-color: #ffd64f;
 }
 
 .message-body {
-    background: #ffd64f26;
+    border-left:0;
 }
 
 .message-body + .message-body {
