@@ -48,7 +48,7 @@ C'est bon ! maintenant, lorsque tu *push/pull/fetch*, ton environnement local es
 Si tu as un site multipage, cela va considérablement raccourcir ton code ([DRY](https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas "Don't Reapeat Yourself")).
 * **Boucle tes items** : Si tu as une liste d'items sur ton projet (par exemple la liste des parfums de glace sur ton projet de glacier),
  créé un tableau en PHP contenant toutes les données de ta liste et affiche les avec une boucle. 
- 
+
 > C'est le moment de mélanger PHP et HTML ! Pour cela, n'écris pas de balises HTML dans les `echo`, 
  mais prends soin d'ouvrir et fermer les balises PHP à chaque fois que nécessaire. Tu intègres du dynamisme (le PHP) au sein
 de ton HTML et non le contraire !
@@ -58,15 +58,11 @@ de ton HTML et non le contraire !
 
 * **Améliore ton formulaire** : Fais en sorte d'utiliser les bon types sur les champs de formulaire. S'il n'y sont pas déjà, ajoute des `labels` et `placeholder`.
 Enfin, ajoute les vérifications nécessaires (`required` par ex). 
-
 * **Réveille ton formulaire** : Récupère les informations saisies sur ton formulaire et utilise les ! 
 Tu peux, par exemple, afficher sur une page suivante les éléments saisis, mis en forme dans une liste. 
 Pense à utiliser une [fonction d'échappement du HTML](https://www.php.net/manual/fr/function.htmlentities.php)
-
 * **Vérifie les données** : En PHP, réalise des vérifications simples des saisies de ton utilisateur. Tu peux par exemple vérifier si le champ saisi par l'utilisateur n'est pas vide.
-
 * **BONUS Menu dynamique** : Si ton projet est multipage, dans ta navbar utilise du PHP pour modifier l'apparence de l'onglet actif (à l'aide de class CSS)
-
 * **BONUS Menu dynamique** : Si ton projet est une [SPA](https://fr.wikipedia.org/wiki/Application_web_monopage "Single Page Application"), dans ta navbar utilise du JS pour modifier l'apparence de l'onglet cliqué (à l'aide de class CSS)
 
 > Pour rappel, la sécurisation des formulaires est **primordiale**. Si la vérification côté client est utile, elle n'est pas suffisante.
@@ -80,11 +76,8 @@ Ensuite, en utilisant PDO, connecte toi à cette base de données. Remplis cette
 * **Récupère les informations** : Ajoute une requête dans ton PHP, pour récupérer les informations de ta table.
  Les résultats de ta requêtes vont être récupérées dans un tableau qui va remplacer le tableau de données préexistant.
  Tu ne devrais donc pas (ou très peu) modifier le reste de ton code, car tu continues de boucler sur un tableau PHP pour afficher les données sur ton site. 
- 
 * **Persiste les données** : Modifie ton formulaire (ou créé en un nouveau en fonction de ton projet). Les données de ce formulaire doivent être validées côté serveur, puis récupérées pour être insérée dans la table en base de données
 (requête INSERT).
- 
 * **BONUS CRUD** : Pour le moment, tu récupères et insères des données, continue à améliorer ton site pour pouvoir mettre à jour et supprimer des données (réalisation d'un CRUD complet) ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
-
 * **BONUS Créé ton propre challenge** : Va encore plus loin en imaginant de nouvelles fonctionnalités ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
 
