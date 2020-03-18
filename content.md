@@ -46,6 +46,7 @@ C'est bon ! maintenant, lorsque tu *push/pull/fetch*, ton environnement local es
 * **Factorise ton code** : Découpe ton code en plusieurs fichiers 
 (par exemple `footer`, `navbar`, `header`) et utilise la fonction `include` pour les afficher. 
 Si tu as un site multipage, cela va considérablement raccourcir ton code ([DRY](https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas "Don't Reapeat Yourself")).
+
 * **Boucle tes items** : Si tu as une liste d'items sur ton projet (par exemple la liste des parfums de glace sur ton projet de glacier),
  créé un tableau en PHP contenant toutes les données de ta liste et affiche les avec une boucle. 
  
@@ -77,6 +78,7 @@ Pense à utiliser une [fonction d'échappement du HTML](https://www.php.net/manu
 
 * **Base de données** : Créé une base de données et au moins une table (mais tu peux en ajouter d'autres en fonction de ton projet et du temps disponible). 
 Ensuite, en utilisant PDO, connecte toi à cette base de données. Remplis cette table avec des infos (l'idée est de reprendre les données que tu avais saisie "en dur" dans un tableau PHP lors de la semaine 1)
+
 * **Récupère les informations** : Ajoute une requête dans ton PHP, pour récupérer les informations de ta table.
  Les résultats de ta requêtes vont être récupérées dans un tableau qui va remplacer le tableau de données préexistant.
  Tu ne devrais donc pas (ou très peu) modifier le reste de ton code, car tu continues de boucler sur un tableau PHP pour afficher les données sur ton site. 
