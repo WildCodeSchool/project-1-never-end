@@ -65,6 +65,10 @@ Pense à utiliser une [fonction d'échappement du HTML](https://www.php.net/manu
 
 * **Vérifie les données** : En PHP, réalise des vérifications simples des saisies de ton utilisateur. Tu peux par exemple vérifier si le champ saisi par l'utilisateur n'est pas vide.
 
+* **BONUS Menu dynamique** : Si ton projet est multipage, dans ta navbar utilise du PHP pour modifier l'apparence de l'onglet actif (à l'aide de class CSS)
+
+* **BONUS Menu dynamique** : Si ton projet est une [SPA](https://fr.wikipedia.org/wiki/Application_web_monopage "Single Page Application"), dans ta navbar utilise du JS pour modifier l'apparence de l'onglet cliqué (à l'aide de class CSS)
+
 > Pour rappel, la sécurisation des formulaires est **primordiale**. Si la vérification côté client est utile, elle n'est pas suffisante.
  et il faut toujours privilégier la vérification en PHP (côté serveur). 
 
@@ -81,6 +85,6 @@ Ensuite, en utilisant PDO, connecte toi à cette base de données. Remplis cette
 (requête INSERT).
  
 * **BONUS CRUD** : Pour le moment, tu récupères et insères des données, continue à améliorer ton site pour pouvoir mettre à jour et supprimer des données (réalisation d'un CRUD complet) ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
-* **BONUS Créé ton propre challenge** : Va encore plus loin en imaginant de nouvelles fonctionnalités ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
 
+* **BONUS Créé ton propre challenge** : Va encore plus loin en imaginant de nouvelles fonctionnalités ! À partir de fonctions natives ? ou bien en utilisant du JS ? 
 
